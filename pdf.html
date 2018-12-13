@@ -1,0 +1,124 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.1.11.1.js"></script>
+<script src="js/jspdf.min.js"></script>
+<style media="screen">
+  #g-file h2 {
+    background: #D8B55D;
+      font-size: 18px;
+      text-transform: inherit;
+      padding: 6px 0 6px 30px;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 31px;
+  }
+
+  #g-file label {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  #g-file p{
+    font-family: 'Montserrat', sans-serif;
+      padding-left: 4%;
+  }
+  .req {padding-left: 0 !important;}
+  #g-file .btn-primary {
+      color: black;
+      background-color: #D8B55D;
+      border-color: #D8B55D;
+      padding: 12px 31px 12px 31px;
+      font-size: 17px;
+      margin: 4% 1% 1% 44%;
+    }
+  .label-text {font-family: 'Montserrat', sans-serif;
+      font-weight: normal;}
+  .seen {padding-left: 28%;
+      padding-top: 4%;}
+  #g-file    .form-group {
+          margin-bottom: 30px;
+      }
+  #g-file    .form-control {
+          display: block;
+          width: 72%;
+          height: 34px;
+          padding: 6px 12px;
+          font-size: 14px;
+          line-height: 1.42857143;
+          color: #555;
+          background-color: #fff;
+          background-image: none;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+          -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+          -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+          margin: -28px 0 0 157px;
+        }
+
+</style>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+</head>
+<body id="g-file">
+
+<div class="container">
+  <div class="col-md-12">
+  </div>
+    <form name="sentMessage" method="post" action="" id="contactForm">
+  <div class="row">
+    <div class="col-md-6">
+          <h2>Informations 1 : </h2>
+
+          <div class="form-group">
+          <label type="text" for="name" id="NameLabel">Nom* :</label> <br>
+          <input type="text" id="name" class="form-control" value="" required="required" placeholder="">
+          </div>
+          <div class="form-group">
+          <label type="text" for="name" id="prenomLabel">Prénom :</label> <br>
+          <input type="text" id="last" class="form-control" value="" required="required" placeholder="">
+          </div>
+          <div class="form-group">
+          <label type="text" for="name" id="telLabel">N° de téléphone* :</label> <br>
+          <input type="text" id="tel" class="form-control" value="" required="required" placeholder="">
+          </div>
+          <div class="form-group">
+          <label type="text" for="name" id="mailLabel">Adresse mail* :</label> <br>
+          <input type="text" id="mail" class="form-control" value="" required="required" placeholder="">
+          </div>
+
+    </div>
+    <div class="col-md-6">
+      <h2>Informations 2 : </h2>
+      <div class="form-group">
+      <label type="text" for="name" id="NameLabel2">Nom* : </label> <br>
+      <input type="text" id="name2" class="form-control" value="" required="required" placeholder="">
+      </div>
+      <div class="form-group">
+      <label type="text" for="name" id="prenomLabel2">Prénom :</label> <br>
+      <input type="text" id="last2" class="form-control" value="" required="required" placeholder="">
+      </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-12">
+      <p class="req">(*) champs obligatoires</p>
+    </div>
+    <input id="button" value="Télécharger" type="submit" class="btn btn-primary">
+
+    </form>
+
+  </div>
+
+
+
+
+
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me3.js"></script>
+</body>
+</html>
